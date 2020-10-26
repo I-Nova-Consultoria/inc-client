@@ -11,6 +11,7 @@ sign_in_btn.addEventListener("click", () => {
 });
 
 function Alertar() {
+  
   confirm("Você está prestes a fazer uma alteração no banco de dados do aprova-fácil, deseja prosseguir?")
 }
 
@@ -20,11 +21,18 @@ var valorVenda = document.getElementById('valor1')
 var proSolut = document.getElementById('solut1')
 
 
-function Calcular() {
+function Calc(){
 
-const Result = parseFloat(valorVenda) + (parseFloat(proSolut) / 100) * parseFloat(valorVenda) || 0
+  
+  var n1=parseFloat(document.getElementById("valor1").value);
+  var n2=parseFloat(document.getElementById("solut1").value);
 
-document.getElementById('resultado1').innerHTML(Result)
+  var op = (n1 * n2) / 100
 
+  var result = document.getElementById("resultado")
+  console.log(result)
+  console.log(op)
+
+  document.getElementById("resultado").innerHTML = op
 
 }

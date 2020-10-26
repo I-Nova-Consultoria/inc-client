@@ -33,6 +33,10 @@ img {
   color: azure;
   font-size: 17px;
 }
+#resultado {
+  font-size: 17px;
+  color: crimson;
+}
 .container {
   position: relative;
   width: 100%;
