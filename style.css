@@ -10,7 +10,29 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
+img {
+  width: 400px;
+}
+.select1 {
+  white-space: nowrap;
+  margin-left: 35%;
+  display: flex;
+  
+}
+#inc1 {
+  margin-left: 35%;
+  position: absolute;
+  background: rgba(2, 69, 100, 0.692);
+  color: azure;
+  font-size: 17px;
+}
+#inc2 {
+  margin-left: 25%;
+  position: absolute;
+  background: rgba(2, 69, 100, 0.692);
+  color: azure;
+  font-size: 17px;
+}
 .container {
   position: relative;
   width: 100%;
